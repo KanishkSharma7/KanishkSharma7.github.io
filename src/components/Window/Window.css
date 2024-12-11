@@ -1,0 +1,68 @@
+.traffic-lights {
+    display: table;
+    margin-left: 15px;
+    padding-bottom: 5px;
+    z-index: 0;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.traffic-light {
+    display: table-cell;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.window-container {
+    position: absolute;
+
+}
+
+#root > div > div.window-container.react-draggable > div > div {
+    border: none;
+}
+
+#root > div > div > div > div > div > div > div > div {
+    border: none;
+}
+
+.window-content-container { 
+    border-top: 2px solid whitesmoke;   
+    /* padding: 5px; */
+    /* text-align: center; */
+    width: 20vw;
+    /* overflow: auto; */
+}
+
+/* .window-content-item { */
+    /* width: 20vw !important; */
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    /* margin: 20px; */
+/* } */
+
+.card-item-container {
+    margin: 0 auto;
+    margin-top: 3.5vh;
+    margin-bottom: 3.5vh;
+    width: 85% !important;
+}
+
+/* .card-item-container-welcome {
+    margin: 0 auto;
+    margin-top: 3.5vh;
+    width: 85% !important;
+} */
+
+/* .card-item-container:hover {
+    background-color: red;
+    margin-top: 40px;
+    margin-bottom: 40px;
+} */
+
+.drag-handle-div-container {
+    background-color: grey;
+    display: flex;
+}
