@@ -69,7 +69,7 @@
             {
                 "contentTitle": "Graph Data Analytics on NYC Taxi Data",
                 "contentSubtitle": null,
-                "contentDesc": "Created a Docker container to deploy a Neo4j instance and loaded NYC Taxi data as a graph to extract insights. Implemented PageRank & Breadth First Search algorithms to identify the most frequently used pickup & dropoff locations, and to determine optimal routes between locations based on trip connectivity. ",
+                "contentDesc": "Developed a data pipeline using Kubernetes, integrating Neo4j for graph analytics & Kafka for real-time streaming. Enabled near real-time analytics by configuring Kafka Connect to stream large datasets into Neo4j. Implemented PageRank for identifying high-traffic pickup/dropoff locations and Breadth-First Search for determining optimal routes based on trip connectivity ",
                 "startDate": "October 2024",
                 "endDate": "November 2024",
                 "logoAsset": "neo4j_logo.png",
