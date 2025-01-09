@@ -4,7 +4,7 @@
             {
                 "contentTitle": "School of Computing and Augmented Intelligence",
                 "contentSubtitle": "Graduate Service Assistant",
-                "contentDesc": "Collaborated with Dr Jaejong Baek as a Teaching Assistant for the course CSE 543: Information Assurance & Security. Designed Capture The Flag challenges using C, involving binary exploitation, reverse engineering & network security.",
+                "contentDesc": "Collaborated with Dr Jaejong Baek as a Teaching Assistant for the course CSE 543: Information Assurance & Security. Designed 107 Capture the Flag challenges using C, involving binary exploitation, reverse engineering & cryptography. Led weekly recitations and office hours to assist a class of 150 students in mastering ethical hacking techniques",
                 "startDate": "May 2024",
                 "endDate": "Present",
                 "logoAsset": "asu_logo.png",
@@ -13,7 +13,7 @@
             {
                 "contentTitle": "Techconfer Technologies",
                 "contentSubtitle": "Software Engineer",
-                "contentDesc": "Engineered performant RESTful microservices for payment & order processing handling 10,000+ transactions daily. Integrated JWT and OAuth to strengthen system security and minimize unauthorized access attempts. Implemented containerization & orchestration strategies to optimize resource management, reducing usage by 25%. Developed 15+ front-end features for user dashboards using React and D3.js to visualize sales and user engagement. Built CI/CD pipelines using Jenkins, to automate deployment and feature rollouts, saving 50 developer hours monthly. Applied Agile methodologies, best practices & code reviews to improve reliability, reducing post-release defects by 50%.",
+                "contentDesc": "Engineered microservices using Node JS for payment & order processing to handle 100,000+ transactions daily. Implemented the AES-256 encryption algorithm to securely store sensitive payment information and order metadata. Developed 15+ front-end features for user dashboards using React and D3 JS to visualize sales and user engagement. Containerized the microservices using Docker and optimized the docker images to reduce the image size by 95%",
                 "startDate": "August 2022",
                 "endDate": " June 2023",
                 "logoAsset": "techconfer_logo.png",
@@ -22,7 +22,7 @@
             {
                 "contentTitle": "Fixl Solutions",
                 "contentSubtitle": "Software Engineer",
-                "contentDesc": "Initiated and integrated Solidity smart contracts to enable ERC-721 token minting, auctions, and trades. Remodeled REST APIs to improve system performance and scalability, achieving sub-50ms latency in API calls. Deployed targeted solutions to mitigate spam & reduce DDoS/DoS risks, lowering weekly call-center costs by $2000. Collaborated with cross-functional teams to build a frontend interface using React, boosting user engagement by 40%.",
+                "contentDesc": "Initiated and integrated Solidity smart contracts to enable ERC-721 token minting, auctions, and trades. Remodeled REST APIs to improve system performance and scalability, achieving sub-50ms latency in API calls. Deployed rate-limiting solutions to mitigate spam & reduce DDoS risks, lowering weekly call-center costs by $2000. Collaborated with cross-functional teams to build a front-end interface using React, boosting user engagement by 40%",
                 "startDate": "June 2021",
                 "endDate": "August 2022",
                 "logoAsset": "fixl_logo.png",
@@ -31,7 +31,7 @@
             {
                 "contentTitle": "Fixl Solutions",
                 "contentSubtitle": "Software Engineer Intern",
-                "contentDesc": "Developed a multitier web application enhancing user experience & engaging 63K users within the first month of launch.",
+                "contentDesc": "Developed a multitier web application enhancing user experience & engaging 63K users within the first month of launch. Achieved 95% test coverage through unit, integration and functional testing, ensuring high software quality",
                 "startDate": "June 2018",
                 "endDate": "May 2020",
                 "logoAsset": "fixl_logo.png",
@@ -42,6 +42,18 @@
     },
     "Projects": {
         "content": [
+            {
+                "contentTitle": "SnapRecon: Serverless Video Intelligence",
+                "contentSubtitle": null,
+                "contentDesc": "Designed a serverless pipeline using AWS Lambda to split videos into frames and perform face recognition. Integrated FFmpeg and ResNet-34 CNN for large-scale video processing, segmentation and face detection. Optimized end-to-end processing to handle 100+ videos in under 300 seconds, ensuring high concurrency and low latency.",
+                "startDate": "September 2024",
+                "endDate": "November 2024",
+                "logoAsset": "aws_logo.png",
+                "links": {
+                    "github": "https://github.com/KanishkSharma7/SnapRecon"
+                }
+
+            },
             {
                 "contentTitle": "Face Recognition as a Service",
                 "contentSubtitle": null,
@@ -55,17 +67,6 @@
 
             },
             {
-                "contentTitle": "Go Bank",
-                "contentSubtitle": null,
-                "contentDesc": "Architected a secure banking application enabling account creation, transfers, and balance management in real-time. Set up Postgres database, created database schemas & optimized queries to achieve faster information retrieval.",
-                "startDate": "May 2024",
-                "endDate": "June 2024",
-                "logoAsset": "go_logo.png",
-                "links": {
-                    "github": "https://github.com/KanishkSharma7/banking-application"
-                }
-            },
-            {
                 "contentTitle": "Graph Data Analytics on NYC Taxi Data",
                 "contentSubtitle": null,
                 "contentDesc": "Created a Docker container to deploy a Neo4j instance and loaded NYC Taxi data as a graph to extract insights. Implemented PageRank & Breadth First Search algorithms to identify the most frequently used pickup & dropoff locations, and to determine optimal routes between locations based on trip connectivity. ",
@@ -73,7 +74,7 @@
                 "endDate": "November 2024",
                 "logoAsset": "neo4j_logo.png",
                 "links": {
-                    "github": "https://hub.docker.com/r/kanishksharma72/hotzoneandhotcellanalysis/tags"
+                    "github": "https://github.com/KanishkSharma7/Distributed-Data-Processing-Pipeline-for-Graph-Based-Data/tree/Phase-2"
                 }
             },
             {
@@ -86,6 +87,17 @@
                 "links": {
                     "github": "https://github.com/KanishkSharma7/blockchain_chain_of_custody"
                 }
+            },
+            {
+                "contentTitle": "Go Bank",
+                "contentSubtitle": null,
+                "contentDesc": "Architected a secure banking application enabling account creation, transfers, and balance management in real-time. Set up Postgres database, created database schemas & optimized queries to achieve faster information retrieval.",
+                "startDate": "May 2024",
+                "endDate": "June 2024",
+                "logoAsset": "go_logo.png",
+                "links": {
+                    "github": "https://github.com/KanishkSharma7/banking-application"
+                }
             }
         ],
         "isOpen": false
@@ -95,7 +107,7 @@
             {
                 "contentTitle": "Arizona State University",
                 "contentSubtitle": "Computer Science M.S.",
-                "contentDesc": "I went to ASU and studied Computer Science. Relevant Coursework: Cloud Computing, Information Assurance and Security, Advanced Computer Network Security, Software Security, Computer and Network Forensics, Data Processing at Scale, Served as an teaching assistant for CSE 543 (Information Assurance and Security) for two straight semesters. GPA: 4.00.",
+                "contentDesc": "I went to ASU and studied Computer Science. Relevant Coursework: Cloud Computing, Information Assurance and Security, Advanced Computer Network Security, Software Security, Computer and Network Forensics, Applied Cryptography, Data Processing at Scale, Digital Video Processing, Fundamentals of Statistical Learning and Pattern Recognition. Served as a teaching assistant for CSE 365 (Information Assurance) and CSE 543 (Information Assurance and Security) for two straight semesters. GPA: 4.07/4.00.",
                 "startDate": "August 2023",
                 "endDate": "May 2025",
                 "logoAsset": "asu_logo.png",
@@ -104,7 +116,7 @@
             {
                 "contentTitle": "JECRC University",
                 "contentSubtitle": "Computer Science and Engineering B.Tech",
-                "contentDesc": "I went to JECRC and studied Computer Science and Engineering. Relevant Coursework: Data Structures, Advanced Algorithms, Object-Oriented Programming, Distributed Software Development, Databases, Compilers, Operating Systems, Computer Architecture. GPA: 3.42.",
+                "contentDesc": "I went to JECRC and studied Computer Science and Engineering. Relevant Coursework: Data Structures, Advanced Algorithms, Object-Oriented Programming, Distributed Software Development, Databases, Compilers, Operating Systems, Computer Architecture. GPA: 7.62/10.",
                 "startDate": "August 2017",
                 "endDate": "May 2021",
                 "logoAsset": "jecrc_logo.png",
@@ -125,7 +137,7 @@
             },
             {
                 "contentTitle": "Shashank Sharma",
-                "contentSubtitle": "CEO, Fixl Solutions",
+                "contentSubtitle": "Founder and CEO, Fixl Solutions",
                 "contentDesc": "Exceptional performance! Kanishk is a dedicated and meticulous software developer who surpassed expectations. All tasks were completed promptly and with precision. His stellar communication skills further enriched the process. Overall, I highly recommend Kanishk as a proficient software developer.",
                 "startDate": null,
                 "endDate": null,
@@ -136,7 +148,26 @@
     },
     "Volunteering": {
         "content": [
-            
+            {
+                "contentTitle": "pwn.college",
+                "contentSubtitle": "Hacker - Orange Belt",
+                "startDate": "January 2024",
+                "endDate": "Present",
+                "logoAsset": "pwn_college.png",
+                "links": {
+                    "link": "https://pwn.college/"
+                }
+            },
+            {
+                "contentTitle": "Hacker Devils",
+                "contentSubtitle": "Member",
+                "startDate": "January 2024",
+                "endDate": "Present",
+                "logoAsset": "hkd_logo.webp",
+                "links": {
+                    "link": "https://www.instagram.com/asuhackerdevils/"
+                }
+            },
             {
                 "contentTitle": "Software Development Association",
                 "contentSubtitle": "Core Member",
@@ -145,16 +176,6 @@
                 "logoAsset": "soda_logo.png",
                 "links": {
                     "link": "https://thesoda.io/"
-                }
-            },
-            {
-                "contentTitle": "Hacker Devils",
-                "contentSubtitle": "Member",
-                "startDate": "August 2023",
-                "endDate": "Present",
-                "logoAsset": "hkd_logo.webp",
-                "links": {
-                    "link": "https://www.instagram.com/asuhackerdevils/"
                 }
             }
         ],
