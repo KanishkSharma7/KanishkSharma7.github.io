@@ -13,7 +13,7 @@
             {
                 "contentTitle": "Techconfer Technologies",
                 "contentSubtitle": "Software Engineer",
-                "contentDesc": "Engineered microservices using Node JS for payment & order processing to handle 100,000+ transactions daily. Implemented the AES-256 encryption algorithm to securely store sensitive payment information and order metadata. Developed 15+ front-end features for user dashboards using React and D3 JS to visualize sales and user engagement. Containerized the microservices using Docker and optimized the docker images to reduce the image size by 95%",
+                "contentDesc": "Engineered and managed REST APIs for payment & order processing, handling 100,000+ global transactions daily. Integrated advanced Redis caching and thoroughly optimized database queries, improving response times by 18%. Implemented microservices architecture with Docker and Kubernetes, reducing operational costs by 10%. Built 15+ user interface components from scratch using Next JS & D3 JS to represent sales & user activity data",
                 "startDate": "August 2022",
                 "endDate": " June 2023",
                 "logoAsset": "techconfer_logo.png",
@@ -22,7 +22,7 @@
             {
                 "contentTitle": "Fixl Solutions",
                 "contentSubtitle": "Software Engineer",
-                "contentDesc": "Initiated and integrated Solidity smart contracts to enable ERC-721 token minting, auctions, and trades. Remodeled REST APIs to improve system performance and scalability, achieving sub-50ms latency in API calls. Deployed rate-limiting solutions to mitigate spam & reduce DDoS risks, lowering weekly call-center costs by $2000. Collaborated with cross-functional teams to build a front-end interface using React, boosting user engagement by 40%",
+                "contentDesc": "Initiated and deployed Solidity smart contract to enable ERC-721 token (NFT) minting, auctions, and trades. Remodeled GraphQL APIs to achieve sub-50ms latency in API calls, improving system performance and scalability. Resolved 12+ complex issues, enhancing overall application security and reliability. Achieved 95% code coverage through unit, integration and functional testing, ensuring high software quality",
                 "startDate": "June 2021",
                 "endDate": "August 2022",
                 "logoAsset": "fixl_logo.png",
@@ -31,7 +31,7 @@
             {
                 "contentTitle": "Fixl Solutions",
                 "contentSubtitle": "Software Engineer Intern",
-                "contentDesc": "Developed a multitier web application enhancing user experience & engaging 63K users within the first month of launch. Achieved 95% test coverage through unit, integration and functional testing, ensuring high software quality",
+                "contentDesc": "Collaborated with cross-functional teams to build 2 application UIs using React and Redux, boosting user experience. Identified and fixed security vulnerabilities in 6 modules, strengthening overall system security",
                 "startDate": "June 2018",
                 "endDate": "May 2020",
                 "logoAsset": "fixl_logo.png",
@@ -42,6 +42,18 @@
     },
     "Projects": {
         "content": [
+            {
+                "contentTitle": "DocuRAG",
+                "contentSubtitle": null,
+                "contentDesc": "Deployed an award-winning RAG model that improves document retrieval accuracy using intelligent chunking methods. Architected a contextual retrieval pipeline using LLaMA-3.2-1B-Instruct to generate descriptive chunk summaries. Implemented meta-chunking strategy with dynamic merging to optimize document segmentation and retrieval.",
+                "startDate": "September 2024",
+                "endDate": "November 2024",
+                "logoAsset": "ragscaled.png",
+                "links": {
+                    "github": "https://github.com/KanishkSharma7/DocuRAG"
+                }
+
+            },
             {
                 "contentTitle": "SnapRecon: Serverless Video Intelligence",
                 "contentSubtitle": null,
@@ -125,28 +137,8 @@
         ],
         "isOpen": false
     },
-    "Testimonals": {
-        "content": [
-            {
-                "contentTitle": "Shailendra Kulshreshta",
-                "contentSubtitle": "Project Manager, Suzuki Motorcycles India",
-                "contentDesc": "Kanishk and his team skillfully managed the development of our website, navigating challenging tasks such as creating a user interface with intricate 3D representation of bike models and dynamic, sophisticated animations. Their commitment ensured timely delivery, and Kanishk's exceptional work with the anti-spam API showcased remarkable precision and expertise.",
-                "startDate": null,
-                "endDate": null,
-                "logoAsset": "suzuki_logo.png"
-            },
-            {
-                "contentTitle": "Shashank Sharma",
-                "contentSubtitle": "Founder and CEO, Fixl Solutions",
-                "contentDesc": "Exceptional performance! Kanishk is a dedicated and meticulous software developer who surpassed expectations. All tasks were completed promptly and with precision. His stellar communication skills further enriched the process. Overall, I highly recommend Kanishk as a proficient software developer.",
-                "startDate": null,
-                "endDate": null,
-                "logoAsset": "fixl_logo.png"
-            }
-        ],
-        "isOpen": false
-    },
-    "Volunteering": {
+    
+    "Extracurriculars": {
         "content": [
             {
                 "contentTitle": "pwn.college",
@@ -177,6 +169,27 @@
                 "links": {
                     "link": "https://thesoda.io/"
                 }
+            }
+        ],
+        "isOpen": false
+    },
+    "Testimonals": {
+        "content": [
+            {
+                "contentTitle": "Shailendra Kulshreshta",
+                "contentSubtitle": "Project Manager, Suzuki Motorcycles India",
+                "contentDesc": "Kanishk and his team skillfully managed the development of our website, navigating challenging tasks such as creating a user interface with intricate 3D representation of bike models and dynamic, sophisticated animations. Their commitment ensured timely delivery, and Kanishk's exceptional work with the anti-spam API showcased remarkable precision and expertise.",
+                "startDate": null,
+                "endDate": null,
+                "logoAsset": "suzuki_logo.png"
+            },
+            {
+                "contentTitle": "Shashank Sharma",
+                "contentSubtitle": "Founder and CEO, Fixl Solutions",
+                "contentDesc": "Exceptional performance! Kanishk is a dedicated and meticulous software developer who surpassed expectations. All tasks were completed promptly and with precision. His stellar communication skills further enriched the process. Overall, I highly recommend Kanishk as a proficient software developer.",
+                "startDate": null,
+                "endDate": null,
+                "logoAsset": "fixl_logo.png"
             }
         ],
         "isOpen": false
