@@ -72,16 +72,18 @@ const ContentItem = (props) => {
           {contentTitle}
         </span>
 
-        <img
-          src={require(`../../assets/${logoAsset}`)}
-          height="100%"
-          width={40}
-          style={{
-            // flexWrap: 'nowrap',
-            // wordBreak: 'break-word',
-            alignSelf: 'start',
-          }}
-        />
+        {logoAsset ? (
+          <img
+            src={require(`../../assets/${logoAsset}`)}
+            height="100%"
+            width={40}
+            style={{
+              // flexWrap: 'nowrap',
+              // wordBreak: 'break-word',
+              alignSelf: 'start',
+            }}
+          />
+        ) : null}
       </div>
       <div
         style={{

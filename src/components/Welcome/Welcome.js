@@ -53,7 +53,7 @@ const Welcome = (props) => {
               Kanishk Sharma
             </span>{' '}
             and I am a{' '}
-            <span style={{ fontWeight: 'bold', fontStyle: 'italic' }}>Software Engineer</span>
+            <span style={{ fontWeight: 'bold', fontStyle: 'italic' }}>Backend Engineer</span>
             .
           </span>
           <br />

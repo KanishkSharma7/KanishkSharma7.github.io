@@ -2,28 +2,37 @@
     "Experience": {
         "content": [
             {
-                "contentTitle": "School of Computing and Augmented Intelligence",
-                "contentSubtitle": "Graduate Service Assistant",
-                "contentDesc": "Collaborated with Dr Jaejong Baek as a Teaching Assistant for the course CSE 543: Information Assurance & Security. Designed 107 Capture the Flag challenges using C, involving binary exploitation, reverse engineering & cryptography. Led weekly recitations and office hours to assist a class of 150 students in mastering ethical hacking techniques",
-                "startDate": "May 2024",
+                "contentTitle": "DataRobot",
+                "contentSubtitle": "Backend Engineer",
+                "contentDesc": "Co-engineered DataRobot's build platform using Spring Boot, the sole build layer behind its GenAI platform where custom models, apps, jobs, and execution environments all get built, across 5 registries spanning AWS, GCP, and Azure, plus 4 storage backends. Owned Python build services running on Kubernetes that build & push images using BuildKit & Kaniko, handling 1M+ builds per day. Reduced median build time by 75% by implementing a parameter-based caching layer that reuses artifacts from earlier builds. Led a Java-to-Go migration of the build scheduler with product & tech leads, balancing risk while cutting median build time by 36%. Cut build-failure detection time from hours to real time for 2M+ users by building live log & security-scan streaming with OpenTelemetry. Caught major bugs before release by designing an end-to-end test suite that runs across 7 environments using Python & Harness CI/CD. Saved 50+ engineering hours per week by building a Claude-based AI agent in Python that patches security vulnerabilities & opens PRs. Performed on-call, production debugging & code review duties for the Compute Services organization across 3 regions (US, EU & JP)",
+                "startDate": "October 2025",
                 "endDate": "Present",
+                "logoAsset": "datarobot_logo.png",
+                "links": null
+            },
+            {
+                "contentTitle": "Arizona State University",
+                "contentSubtitle": "Graduate Service Assistant",
+                "contentDesc": "Designed 107 Capture the Flag challenges in Python and C++ covering web security, cryptography, and scripting, used across 5 courses. Automated challenge grading by building a custom judging algorithm, replacing manual grading of 1000+ submissions per term. Reduced development cycle time by 15% by setting up Jenkins CI/CD pipelines that automated testing and deployment. Mentored 200 students every semester in office hours, coaching them through solving cybersecurity based Capture the Flag challenges",
+                "startDate": "May 2024",
+                "endDate": "May 2025",
                 "logoAsset": "asu_logo.png",
                 "links": null
             },
             {
                 "contentTitle": "Techconfer Technologies",
                 "contentSubtitle": "Software Engineer",
-                "contentDesc": "Engineered and managed REST APIs for payment & order processing, handling 100,000+ global transactions daily. Integrated advanced Redis caching and thoroughly optimized database queries, improving response times by 18%. Implemented microservices architecture with Docker and Kubernetes, reducing operational costs by 10%. Built 15+ user interface components from scratch using Next JS & D3 JS to represent sales & user activity data",
+                "contentDesc": "Built REST APIs using FastAPI & MySQL for payments and transaction processing, serving 100,000+ orders daily at 99.9% availability. Integrated Stripe payments with idempotency keys, ensuring 0 duplicate charges on retried transactions. Improved response times & kept payment processing stable under 10,000+ retries per second by building a sharded Redis cache. Optimized resource utilization by 15% by orchestrating distributed backend services on AWS with Kubernetes and EKS. Slashed mean time to diagnose production incidents by 50% by setting up 6 metrics dashboards & distributed tracing for payment services",
                 "startDate": "August 2022",
-                "endDate": " June 2023",
+                "endDate": "June 2023",
                 "logoAsset": "techconfer_logo.png",
                 "links": null
             },
             {
                 "contentTitle": "Fixl Solutions",
                 "contentSubtitle": "Software Engineer",
-                "contentDesc": "Initiated and deployed Solidity smart contract to enable ERC-721 token (NFT) minting, auctions, and trades. Remodeled GraphQL APIs to achieve sub-50ms latency in API calls, improving system performance and scalability. Resolved 12+ complex issues, enhancing overall application security and reliability. Achieved 95% code coverage through unit, integration and functional testing, ensuring high software quality",
-                "startDate": "June 2021",
+                "contentDesc": "Built backend APIs in Python (FastAPI) and Node.js for a supply chain management system, routing orders across 2,600+ SKUs. Achieved 90% backend test coverage by writing an automated test suite with pytest and Selenium, reducing production regressions. Cut post-release defects by 60% by leading code reviews and introducing automated testing and debugging practices",
+                "startDate": "January 2021",
                 "endDate": "August 2022",
                 "logoAsset": "fixl_logo.png",
                 "links": null
@@ -45,7 +54,7 @@
             {
                 "contentTitle": "DocuRAG",
                 "contentSubtitle": null,
-                "contentDesc": "Deployed an award-winning RAG model that improves document retrieval accuracy using intelligent chunking methods. Architected a contextual retrieval pipeline using LLaMA-3.2-1B-Instruct to generate descriptive chunk summaries. Implemented meta-chunking strategy with dynamic merging to optimize document segmentation and retrieval.",
+                "contentDesc": "Built a RAG pipeline with Python, Pinecone, RocksDB & LlamaIndex using meta-chunking strategies that cut inference time by 46% while improving retrieval accuracy. Designed a contextual retrieval pipeline using LLaMA-2-7B-Instruct for descriptive chunk summarization. Implemented meta-chunking with dynamic merging to optimize document segmentation and retrieval.",
                 "startDate": "September 2024",
                 "endDate": "November 2024",
                 "logoAsset": "ragscaled.png",
@@ -79,9 +88,9 @@
 
             },
             {
-                "contentTitle": "Graph Data Analytics on NYC Taxi Data",
+                "contentTitle": "Real-Time Graph Data Analytics",
                 "contentSubtitle": null,
-                "contentDesc": "Developed a data pipeline using Kubernetes, integrating Neo4j for graph analytics & Kafka for real-time streaming. Enabled near real-time analytics by configuring Kafka Connect to stream large datasets into Neo4j. Implemented PageRank for identifying high-traffic pickup/dropoff locations and Breadth-First Search for determining optimal routes based on trip connectivity ",
+                "contentDesc": "Built a real-time pipeline that streams NYC taxi trip events through Kafka into Neo4j, deployed on Kubernetes with Docker. Configured Kafka Connect to stream large datasets into Neo4j for near real-time graph analytics. Ran PageRank and BFS on the live graph for hotspot detection and route optimization",
                 "startDate": "October 2024",
                 "endDate": "November 2024",
                 "logoAsset": "neo4j_logo.png",
@@ -117,9 +126,18 @@
     "Education": {
         "content": [
             {
+                "contentTitle": "Indiana Wesleyan University",
+                "contentSubtitle": "Artificial Intelligence M.S. (Data Science Specialization)",
+                "contentDesc": "Pursuing a Master of Science in Artificial Intelligence with a specialization in Data Science. Relevant Coursework: AI/ML Deployment, Responsible AI, Model Development, Productionizing AI Applications.",
+                "startDate": "August 2025",
+                "endDate": "December 2026",
+                "logoAsset": null,
+                "links": null
+            },
+            {
                 "contentTitle": "Arizona State University",
                 "contentSubtitle": "Computer Science M.S.",
-                "contentDesc": "I went to ASU and studied Computer Science. Relevant Coursework: Cloud Computing, Information Assurance and Security, Advanced Computer Network Security, Software Security, Computer and Network Forensics, Applied Cryptography, Data Processing at Scale, Digital Video Processing, Fundamentals of Statistical Learning and Pattern Recognition. Served as a teaching assistant for CSE 365 (Information Assurance) and CSE 543 (Information Assurance and Security) for two straight semesters. GPA: 4.07/4.00.",
+                "contentDesc": "I went to ASU and studied Computer Science. Relevant Coursework: Generative AI, Distributed Systems, Cloud Computing, Information Assurance and Security, Advanced Computer Network Security, Software Security, Computer and Network Forensics, Applied Cryptography, Data Processing at Scale, Digital Video Processing, Fundamentals of Statistical Learning and Pattern Recognition. Served as a teaching assistant for CSE 365 (Information Assurance) and CSE 543 (Information Assurance and Security) for two straight semesters. GPA: 4.07/4.00.",
                 "startDate": "August 2023",
                 "endDate": "May 2025",
                 "logoAsset": "asu_logo.png",
@@ -175,6 +193,22 @@
     },
     "Testimonals": {
         "content": [
+            {
+                "contentTitle": "Artem Panchenko",
+                "contentSubtitle": "Staff Platform Engineer, DataRobot",
+                "contentDesc": "I had the pleasure of working with Kanishk and was always impressed by his steady growth and dedication. Even as a recent graduate, he showed a great ability to take on new challenges, focus closely on a problem, and build reliable solutions step by step. Along with his clear communication and strong work ethic, he is a very fast learner. He quickly picks up new tools and technologies to improve his work and deliver great results. Kanishk is a hardworking, adaptable, and focused software engineer who will bring immediate value to his next team.",
+                "startDate": null,
+                "endDate": null,
+                "logoAsset": "datarobot_logo.png"
+            },
+            {
+                "contentTitle": "Tushar Pandey, Ph.D.",
+                "contentSubtitle": "Senior AI Engineer, DataRobot",
+                "contentDesc": "I worked closely with Kanishk across multiple projects, and was impressed by his ability to deliver high-impact features with minimal ramp-up time. Just a few months in to the role, he took on larger project responsibilities and did cross-team collaboration to get initiatives across the finish line. He is proactive, dependable, and operates well beyond the assigned level, he would be a tremendous asset to any team.",
+                "startDate": null,
+                "endDate": null,
+                "logoAsset": "datarobot_logo.png"
+            },
             {
                 "contentTitle": "Shailendra Kulshreshta",
                 "contentSubtitle": "Project Manager, Suzuki Motorcycles India",
